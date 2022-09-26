@@ -1,0 +1,19 @@
+{
+  "name": "naturalis",
+  "version": "1.0.0",
+  "description": "Node RESTful API",
+  "main": "app.js",
+  "author": "Guilherme Duccini",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
